@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .height {
+            min-height: 100vh;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .margintop {
+            margin-top: 140px;
+        }
+
+        .bd-radius {
+            border-radius: 15px;
+            font-size: 13px;
+        }
+
+        img {
+            width: 200px;
+        }
+        .marginbottom {
+            margin-bottom: 150px;
+        }
+        .margintopgood {
+            margin-top: 50px;
+        }
+
+        .max-width {
+            min-width: 700px;
+        }
+        li {
+            list-style: none;
+            margin-right: 40px;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(36, 34, 34);
+        }
+
+        a:hover {
+            color:  rgb(131, 80, 80);
+        }
+
+        .mr {
+            margin-left: -140px;
+        }
+
+        .lightgray {
+            background-color: rgb(200, 196, 196);
+        }
+
+        .gray {
+            color: rgb(253, 248, 248);
+            text-shadow: 0px 7px 10px rgba(0,0,0,0.45);
+        }
+        .bg-color {
+            background-color: rgb(42, 40, 40);
+        }
+
+    </style>
+    <title>furniture</title>
+  </head>
+  <body>
+    <nav class="nav-bar text-dark d-lg-none d-md-block mb-0 ms-0 pt-3">
+        <ul class="d-flex align-items-center fw-bold">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Catalogue</a>
+            </li>
+            <li>
+                <a href="#">Rating</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container-fluid">
+    <div class="row height">
+        <div class="col-sm-12 col-md-12 col-lg-4 bg-color text-white py-3 ps-5 mx-auto">
+            <p class="text-uppercase fs-2">
+                <span class="fw-bold">daily</span><span >goods</span></p>
+            <h1 class="fw-bold display-3 margintop mb-3">Simple & Comfort</h1>
+            <p class="lead mb-3 w-70">This furniture website lets visitors create wish
+                 lists for their favorite items which help honor
+            </p>
+            <a href="" class="btn btn-light bd-radius fw-bold btn-lg">Discover Us</a>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-8 lightgray ps-5 height d-none d-lg-block mx-auto">
+            <!--end-->
+            <nav class="nav-bar text-dark py-3 d-none d-lg-flex">
+                <ul class="d-flex align-items-center">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Catalogue</a>
+                    </li>
+                    <li>
+                        <a href="#">Rating</a>
+                    </li>
+                    <li class="mx-5">
+                        <a href="login.html">Login</a>
+                    </li>
+                    <li>
+                        <a href="signup.html" class="btn btn-outline-dark rounded-pill">Sign Up</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="row margintopgood">
+                <h1 class="text-end mb-3 fs-4  mr">$59</h1>
+                <div class="col-sm-8 col-lg-5">
+                    <div id="slideimages" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-indicators">
+                                <button data-bs-target="#slideimages" data-bs-slide-to="0" class="bg-dark active"></button>
+                                <button data-bs-target="#slideimages" data-bs-slide-to="1" class="bg-dark "></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="image/furniture1.webp" alt="" class=" d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="image/furniture2.webp" alt="" class=" d-block w-100">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="lead  my-3">This furniture website lets the visitors create wish lists.</p>
+                </div>
+                <!--end-->
+                <div class="col-sm-8  col-lg-5 fs-5 ms-3">
+                    <p class="fw-bold mb-0 ">Goods Store</p>
+                    <p class="mt-0 marginbottom">Chair</p>
+                   <div id="slideimages" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-indicators">
+                            <span class="gray">More Details &#8594;</span> 
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="image/furniture1.webp" alt="" class=" d-block w-100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
+

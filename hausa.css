@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: rgb(184,0,0);
+    margin-bottom: 5px;
+}
+
+.container {
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    color: white;
+    position: relative;
+}
+
+.container div{
+    margin-right: 7px;
+}
+
+.logo {
+    background-color: white;
+    color: rgb(184,0,0);
+    padding: 0 3px;
+    font-weight: bold;
+}
+
+.news {
+    font-weight: bold;
+    font-size: 20px;
+}
+.lang {
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+.tooltip {
+position: absolute;
+right: 14px;
+left: 10px;
+top: 0;
+bottom: 0;
+border-bottom: 3px solid white;
+opacity: 0;
+}
+
+nav a:hover .tooltip{
+opacity: 1;
+}
+
+
+.active {
+border-bottom: 3px solid rgb(184,0,0);
+margin-top: 3px;
+}
+
+.line {
+    border-bottom: 1px solid rgb(200,200,200);
+}
+
+
+
+.item {
+margin-right: 10px;
+position: relative;
+}
+
+.item a {
+    font-size: 14px;
+}
+
+.news-section {
+position: relative;
+padding-left: 10px;
+display: flex;
+align-items: center;
+
+}
+
+.tooltip-news {
+    right: 14px;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    border-bottom: 3px solid rgb(184,0,0);
+    opacity: 0;
+    }
+
+    .item:hover .tooltip-news {
+        opacity: 1;
+    }
+
+    /*.graybox {
+        min-height: 50vh;
+        background-color: rgb(230, 232, 234);
+    }*/
+
+    main {
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: 510px 250px 250px;
+        justify-content: center;
+        column-gap: 30px;
+        padding-left: 10px;
+        
+    }
+
+    .left-section {
+        width: 500px ;
+    }
+
+    .right-section {
+        
+    }
+
+    .title {
+        font-size: 30px;
+        color: rgb(104, 101, 101);
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .subtitle {
+        margin-top: 5px;
+        color:rgb(104, 101, 101);
+        font-size: 12px;
+    }
+
+    .left-section a:hover {
+        text-decoration: underline;
+    }
+
+    .time {
+        color: rgb(104, 101, 101);
+        font-size: 14px;
+
+    }
+
+    .right {
+        width: 250px;
+    }
+
+    .small-image {
+        width: 250px;
+    }
+
+    .small-title {
+        margin-top: 2px;
+        color:rgb(104, 101, 101);
+        font-weight: bold;
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+
+    .small-time {
+        margin-top: 5px;
+        color: rgb(104, 101, 101);
+        font-size: 14px;
+    }
